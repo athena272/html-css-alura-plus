@@ -178,13 +178,43 @@ body {
     .container {
         display: block;
         background-image: none;
+        height: 100%;
     }
 
     .hero__image {
-        width: 50%;
+        width: 50vw;
     }
 
     .hero__box {
         margin: 2em 2em;
+    }
+    
+    .feature__image {
+        width: 50vw;
+    }
+
+    .feature, .devices {
+        text-align: center;
+        margin: 0;
+        padding: 5em 0;
+    }
+
+    .devices {
+        margin: 0 2em;
+    }
+
+    .devices__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer {
+        margin: 0 1em 5em;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        gap: 20px;
     }
 }
