@@ -173,3 +173,18 @@ body {
     color: var(--color-gray);
     font-size: 14px;
 }
+
+@media (max-width: 992px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .hero__image {
+        width: 50%;
+    }
+
+    .hero__box {
+        margin: 2em 2em;
+    }
+}
